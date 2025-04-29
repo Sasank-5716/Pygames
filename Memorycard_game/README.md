@@ -16,7 +16,7 @@ A simple memory card matching game built with Python and Pygame. Flip cards to f
 
 ## 📸 Screenshots
 
-![Game Screenshot](screenshot.png) 
+![Game Screenshot](Game.png) 
 
 ---
 
