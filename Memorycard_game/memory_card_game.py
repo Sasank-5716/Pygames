@@ -85,7 +85,6 @@ while True:
 
     # Check win condition
     if all(matched):
-        screen.fill(WHITE)
         win_text = font.render("You Win! Final Score: " + str(score), True, BLACK)
         screen.blit(win_text, (WIDTH//2 - 150, HEIGHT//2))
         pygame.display.flip()
