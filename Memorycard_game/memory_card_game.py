@@ -85,6 +85,7 @@ while True:
 
     # Check win condition
     if all(matched):
+        screen.fill(WHITE)
         win_text = font.render("You Win! Final Score: " + str(score), True, BLACK)
         screen.blit(win_text, (WIDTH//2 - 150, HEIGHT//2))
         pygame.display.flip()
@@ -116,6 +117,11 @@ while True:
     # Draw score
     score_text = font.render(f"Score: {score}", True, BLACK)
     screen.blit(score_text, (10, 10))
+
+    logo_text = font.render("Created by Sasank Lama", True, BLACK)
+    text_rect = logo_text.get_rect()
+    text_rect.bottomright = (WIDTH - 10, HEIGHT - 10)
+    screen.blit(logo_text, text_rect)
 
     pygame.display.flip()
     clock.tick(60)
