@@ -37,22 +37,26 @@ A simple memory card matching game built with Python and Pygame. Flip cards to f
 
 ---
 
-🛠️ Installation
+## 🛠️ Installation
 Clone this repository using the command below (click the copy button in the top right corner):
 
-bash
+```bash
 git clone https://github.com/Sasank-5716/Pygames.git
+```
 cd Pygames/memory_card_game
-🚀 Running the Game
+
+## 🚀 Running the Game
 Install dependencies:
 
-bash
+```bash
 pip install pygame
+```
+
 Run the game:
 
-bash
+```bash
 python memory_card_game.py
-
+```
 ---
 
 ## 🧑💻 Code Overview
