@@ -4,6 +4,8 @@ import sys
 # Initialize pygame
 pygame.init()
 
+credit_font = pygame.font.Font(None, 24)
+
 # Screen dimensions
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -121,6 +123,10 @@ while True:
         # Score display
         score_text = font.render(f"{score_a} - {score_b}", True, WHITE)
         screen.blit(score_text, (WIDTH // 2 - score_text.get_width() // 2, 20))
+
+        credit_text = credit_font.render("Created By Sasank Lama", True, WHITE)
+        credit_pos = (WIDTH - credit_text.get_width() - 10, HEIGHT - credit_text.get_height() - 5)
+        screen.blit(credit_text, credit_pos)
     
     elif game_state == "game_over":  # NEW: Game over screen
         screen.fill(BLACK)
