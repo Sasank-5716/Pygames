@@ -2,6 +2,9 @@
 
 A classic Pong game built with Pygame where the first player to score 10 points wins.
 
+## 📸 Screenshots
+
+![Game Screenshot](Pong.png) 
 
 ## 🎮 Features
 - Player vs Player gameplay
