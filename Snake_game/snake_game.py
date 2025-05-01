@@ -94,6 +94,12 @@ def show_game_over(screen, score):
                     return False
     return False
 
+def draw_credit(screen):
+    font_credit = pygame.font.SysFont(None, 24)
+    credit_text = font_credit.render("Created by Sasank Lama", True, (180, 180, 180))  # Subtle gray
+    credit_rect = credit_text.get_rect(bottomright=(WIDTH - 10, HEIGHT - 10))
+    screen.blit(credit_text, credit_rect)
+
 def game_loop():
     snake = Snake()
     food = Food()
@@ -143,7 +149,8 @@ def game_loop():
         # Display score
         score_text = font.render(f"Score: {score}", True, WHITE)
         screen.blit(score_text, (10, 10))
-        
+        draw_credit(screen)
+
         pygame.display.update()
         clock.tick(10)  # 10 FPS
     
