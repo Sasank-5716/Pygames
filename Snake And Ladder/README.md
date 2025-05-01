@@ -39,6 +39,9 @@ Run the game:
 ```bash
 python main.py
 ```
+## 📸Screenshot
+![Game Screenshot](Snake_and_ladder.png)
+
 
 ## How to Play
 - Click on the dice to roll it.
