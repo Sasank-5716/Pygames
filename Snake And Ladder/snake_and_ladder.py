@@ -334,6 +334,11 @@ while True:
     font = pygame.font.SysFont(None, 36)
     turn_text = font.render(f"{current_player}'s Turn", True, BLACK)
     screen.blit(turn_text, (50, HEIGHT - 50))
+
+    font_credit = pygame.font.SysFont(None, 24)
+    credit_text = font_credit.render("Created by Sasank Lama", True, (100, 100, 100))  
+    credit_rect = credit_text.get_rect(bottomright=(WIDTH - 10, HEIGHT - 10))
+    screen.blit(credit_text, credit_rect)
     
     pygame.display.flip()
     clock.tick(30)
