@@ -20,30 +20,27 @@ A classic Tetris puzzle game built with Python and Pygame! Arrange falling block
 
 ## 🖼️ Screenshots
 
-![Tetris Gameplay](screenshot.png)  
+![Tetris Gameplay](Tetris.png)  
 
 ---
 
 ## 🛠️ Installation
 
 **Clone and play instantly:**
-
+```bash
 git clone https://github.com/yourusername/tetris-game.git
+```
+```bash
 cd tetris-game
+```
+Install Pygame
+```bash
 pip install pygame
 
-text
-
----
-
 ## 🚀 Running the Game
-
+```bash
 python tetris.py
-
-text
-*(Replace `tetris.py` with your filename if different)*
-
----
+```
 
 ## 🕹️ How to Play
 
