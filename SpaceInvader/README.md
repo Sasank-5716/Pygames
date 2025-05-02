@@ -26,7 +26,7 @@ A Python implementation of the classic Space Invaders game using Pygame.
 ```
 Run the game:
 ```bash
-python space_invader.py
+   python space_invader.py
 ```
 ## 📸 Screenshots
 
