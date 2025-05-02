@@ -9,6 +9,7 @@ class TetrisGame:
         pygame.display.set_caption("Tetris")
         self.clock = pygame.time.Clock()
         self.font = pygame.font.Font(None, 36)
+        self.logo_font = pygame.font.Font(None, 24)
         self.game = GameLogic()
         self.fall_time = 0
     
@@ -86,7 +87,8 @@ class TetrisGame:
         # Draw score
         score_text = self.font.render(f"Score: {self.game.score}", True, WHITE)
         self.screen.blit(score_text, (GRID_WIDTH * BLOCK_SIZE + 10, 20))
-        
+        logo_text = self.logo_font.render("Created By Sasank Lama", True, WHITE)
+        self.screen.blit(logo_text, (10, 10))
         pygame.display.flip()
     
     def run(self):
