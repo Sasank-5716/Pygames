@@ -55,6 +55,8 @@ enemy_shoot_chance = 0.005
 score = 0
 lives = 3
 font = pygame.font.Font(None, 36)
+logo_font = pygame.font.Font(None, 24)
+
 game_over = False
 
 # Game loop
@@ -205,6 +207,9 @@ while True:
     lives_text = font.render(f"Lives: {lives}", True, WHITE)
     screen.blit(score_text, (10, 10))
     screen.blit(lives_text, (WIDTH - 120, 10))
+
+    logo_text = logo_font.render("Created By Sasank Lama", True, WHITE)
+    screen.blit(logo_text, (10, HEIGHT - 40))
     
     # Game over message
     if game_over:
