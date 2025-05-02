@@ -18,5 +18,18 @@ A Python implementation of the classic Space Invaders game using Pygame.
 
 ## Installation
 1. Clone the repository:
+```bash
    git clone https://github.com/Sasank-5716/SpaceInvader
+```
+```bash
    cd SpaceInvaders
+```
+Run the game:
+```bash
+python space_invader.py
+```
+## 📸 Screenshots
+
+![Game Screenshot](Space_invader.png) 
+
+
