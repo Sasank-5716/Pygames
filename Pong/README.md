@@ -17,11 +17,19 @@ A classic Pong game built with Pygame where the first player to score 10 points 
 1. Make sure you have Python 3.8+ installed
 2. Clone this repository:
 ```bash
-git clone https://github.com/Sasank-5716/Pong.git
+git clone https://github.com/Sasank-5716/Pygames.git
 ```
+```bash
+cd Pygames/Pong
+```
+
 ## Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+## Run the game
+```bash
+python pong.py
 ```
 
 ## 🕹️ How to Play
