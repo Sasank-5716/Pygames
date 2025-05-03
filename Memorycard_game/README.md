@@ -43,7 +43,9 @@ Clone this repository using the command below (click the copy button in the top 
 ```bash
 git clone https://github.com/Sasank-5716/Pygames.git
 ```
-cd Pygames/memory_card_game
+```bash
+cd Pygames/Memorycard_game
+```
 
 ## 🚀 Running the Game
 Install dependencies:
