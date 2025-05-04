@@ -23,15 +23,19 @@ A Python implementation of the iconic Snake game using Pygame. Grow your snake, 
 **Clone and play instantly:**
 Click the copy button in the top-right corner →
 ```bash
-git clone https://github.com/yourusername/snake-game.git 
+git clone https://github.com/Sasank-5716/Pygames
 ```
 ```bash
-cd snake-game
+cd Snake_game
 ```
 
 Install dependencies
 ```bash
 pip install pygame
+```
+Run the game
+```bash
+python snake_game.py
 ```
 
 ## 🖼️ Screenshots
