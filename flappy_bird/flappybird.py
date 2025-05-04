@@ -97,7 +97,12 @@ while True:
         # Update high score
         if score > high_score:
             high_score = score
-    
+    def draw_logo(screen):
+        logo_font = pygame.font.Font(None, 24)  
+        logo_text = logo_font.render('Created By Sasank Lama', True, (50, 50, 50)) 
+        logo_pos = (screen.get_width() - logo_text.get_width() - 10, screen.get_height() - logo_text.get_height() - 10)
+        screen.blit(logo_text, logo_pos)
+
     # Drawing
     screen.fill(SKY_BLUE)
 
@@ -123,5 +128,7 @@ while True:
         game_over_text = font.render("Press SPACE to restart", True, BLACK)
         screen.blit(game_over_text, (WIDTH//2 - 150, HEIGHT//2))
     
+    draw_logo(screen)
+
     pygame.display.flip()
     clock.tick(60)
