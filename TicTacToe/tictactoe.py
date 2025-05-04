@@ -98,7 +98,15 @@ while True:
                 current_player = 'X'
                 game_over = False  
 
+    def draw_logo(screen):
+        logo_font = pygame.font.Font(None, 30)  # Small font for logo
+        logo_text = logo_font.render('Created By Sasank Lama', True, (50, 50, 50))
+        logo_pos = (screen.get_width() - logo_text.get_width() - 10, screen.get_height() - logo_text.get_height() - 10)
+        screen.blit(logo_text, logo_pos)
+
+
     draw_board()
+    draw_logo(screen)
 
     if game_over:
         font = pygame.font.Font(None, 50)
