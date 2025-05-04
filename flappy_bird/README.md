@@ -5,7 +5,6 @@ A Python implementation of the classic Flappy Bird game using Pygame. Navigate t
 [![Python Version](https://img.shields.io/badge/Python-3.7+-blue?logo=python)](https://python.org)
 [![Pygame](https://img.shields.io/badge/Pygame-2.0+-green?logo=python)](https://pygame.org)
 ![License](https://img.shields.io/badge/License-MIT-red)
-
 ---
 
 ## 🎮 Features
@@ -15,35 +14,32 @@ A Python implementation of the classic Flappy Bird game using Pygame. Navigate t
 - **🎯 Collision Detection**: Precise hitboxes for pipes and boundaries
 - **🔄 Restart Mechanic**: Instant replay with spacebar
 - **🎨 Minimalist Design**: Clean graphics and smooth animations
-
 ---
 
 ## 🖼️ Screenshots
 
-![Gameplay](screenshot.png) *(Add your own screenshot here!)*
-
+![Gameplay](Flappybird.png) 
 ---
 
 ## 🛠️ Installation
 
 **Clone and run with one command:**
 Click the copy button in the top-right corner →
-git clone https://github.com/yourusername/flappy-bird-clone.git && cd flappy-bird-clone
-
+```bash
+git clone https://github.com/Sasank-5716/Pygames.git 
+```
+```bash
+ cd flappy_bird
+```
 Install dependencies
+```bash
 pip install pygame
-
-text
-
----
+```
 
 ## 🚀 Running the Game
-
-python flappy_bird.py
-
-text
-
----
+```bash
+python flappybird.py
+```
 
 ## 🕹️ How to Play
 
@@ -52,7 +48,6 @@ text
 3. **Navigate** through pipe gaps
 4. **Crash** = Game Over (Press SPACE to restart)
 5. **Compete** against your high score!
-
 ---
 
 ## 🧠 Code Highlights
@@ -64,13 +59,11 @@ update_game_state()
 render_graphics()
 clock.tick(60) # 60 FPS
 
-text
 
 - **📦 Object-Oriented Design** (easily extendable)
 - **⚡ Efficient Collision Detection** using `pygame.Rect`
 - **⏲️ Pipe Generation System** with random heights
 - **📊 Score Calculation** (0.5 points per pipe passed)
-
 ---
 
 ## 🛠️ Customization
@@ -81,9 +74,7 @@ pipe_gap = 150 # Decrease for harder difficulty
 scroll_speed = 3 # Increase for faster gameplay
 gravity = 0.5 # Increase for heavier feeling
 
-text
 - **🎵 Add Sound Effects** using `pygame.mixer`
-
 ---
 
 ## 🤝 Contributing
@@ -93,7 +84,6 @@ text
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a pull request
-
 ---
 
 **Happy Flapping!** 🚀
