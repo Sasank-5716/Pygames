@@ -4,7 +4,6 @@ A classic two-player implementation of Tic-Tac-Toe built with Python and Pygame.
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)](https://python.org)  
 [![Pygame](https://img.shields.io/badge/Pygame-2.0%2B-green?logo=python)](https://pygame.org)  
 ![License](https://img.shields.io/badge/License-MIT-red)
-
 ---
 
 ## 🎮 Features  
@@ -14,29 +13,27 @@ A classic two-player implementation of Tic-Tac-Toe built with Python and Pygame.
 - **🔄 Restart Option**: Quick replay with one click  
 - **📊 Score Tracking**: Wins for X and O displayed  
 
----
 
 ## 🖼️ Screenshots  
-![Tic-Tac-Toe Gameplay](screenshot.png)  
-
+![Tic-Tac-Toe Gameplay](Tictactoe.png)  
 ---
 
 ## 🛠️ Installation  
-**Clone and play:**  
-git clone https://github.com/yourusername/tic-tac-toe.git
-cd tic-tac-toe
+**Clone and play:** 
+```bash 
+git clone https://github.com/Pygames.git
+```
+```bash
+cd TicTacToe
+```
+```bash
 pip install pygame
-
-text
-
----
+```
 
 ## 🚀 Running the Game  
+```bash
 python tictactoe.py
-
-text
-
----
+```
 
 ## 🕹️ How to Play  
 1. **Players alternate turns**: X starts first  
@@ -44,7 +41,6 @@ text
 3. **First to get 3 in a row** (horizontal, vertical, or diagonal) wins  
 4. **Press R** to restart the game  
 5. **Press Q** to quit  
-
 ---
 
 ## ⚙️ Project Structure  
@@ -53,10 +49,7 @@ tic-tac-toe/
 ├── tictactoe.py # Main game logic
 ├── requirements.txt
 ├── README.md
-└── screenshot.png 
-
-text
-
+└── Tictactoe.png 
 ---
 
 ## 🧠 Code Highlights  
@@ -65,7 +58,6 @@ Calculate grid position from mouse click
 col = mouse_pos // (WIDTH // 3)
 row = mouse_pos // (HEIGHT // 3)
 
-text
 - **Win Condition Check**:  
 Check all 8 possible winning combinations
 win_conditions = [
@@ -78,13 +70,10 @@ win_conditions = [
 # ... etc ...
 ]
 
-text
+
 - **Restart Logic**: Reset board with one keypress  
 if event.key == pygame.K_r:
 board = [[None for _ in range(3)] for _ in range(3)]
-
-text
-
 ---
 
 ## 🛠️ Customization  
@@ -92,10 +81,6 @@ text
 - **Grid Size**: Change WIDTH/HEIGHT for bigger board  
 - **AI Opponent**: Add single-player mode with minimax algorithm  
 def minimax(board, depth, is_maximizing):
-# AI logic here
-
-text
-
 ---
 
 **May the best strategist win!** 🧠⚡
