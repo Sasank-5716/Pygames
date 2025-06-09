@@ -33,3 +33,6 @@
 
 ## 8. Tetris
 ![Tetris](/Tetris_game/Tetris.png)
+
+## 9. Tictactoe
+![Tictactoe](/TicTacToe/Tictactoe.png)
