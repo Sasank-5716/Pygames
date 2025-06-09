@@ -24,3 +24,6 @@
 
 ## 5. Snake and ladder
 ![Snake and ladder](/Snake%20And%20Ladder/Snake_and_ladder.png)
+
+## 6. Snake game
+![Snake game](/Snake_game/Snake_game.png)
