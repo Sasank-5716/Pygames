@@ -27,3 +27,6 @@
 
 ## 6. Snake game
 ![Snake game](/Snake_game/Snake_game.png)
+
+## 7. Space invader
+![Space Invader](/SpaceInvader/Space_invader.png)
