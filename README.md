@@ -30,3 +30,6 @@
 
 ## 7. Space invader
 ![Space Invader](/SpaceInvader/Space_invader.png)
+
+## 8. Tetris
+![Tetris](/Tetris_game/Tetris.png)
