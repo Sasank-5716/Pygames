@@ -9,3 +9,9 @@
 7. Space invader
 8. Tetris
 9. Tictactoe
+
+## 1. Chess
+![Chess]()
+
+## 2. flappy bird
+![Flappybird](/flappy_bird/Flappybird.png)
