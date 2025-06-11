@@ -10,29 +10,24 @@
 8. Tetris
 9. Tictactoe
 
-## 1. Chess
-![Chess]()
 
-## 2. flappy bird
+## 1. flappy bird
 ![Flappybird](/flappy_bird/Flappybird.png)
 
-## 3. Memorycard
+## 2. Memorycard
 ![Memorycard](/Memorycard_game/Game.png)
 
-## 4. Pong
+## 3. Pong
 ![Pong](/Pong/Pong.png)
 
-## 5. Snake and ladder
-![Snake and ladder](/Snake%20And%20Ladder/Snake_and_ladder.png)
-
-## 6. Snake game
+## 4. Snake game
 ![Snake game](/Snake_game/Snake_game.png)
 
-## 7. Space invader
+## 5. Space invader
 ![Space Invader](/SpaceInvader/Space_invader.png)
 
-## 8. Tetris
+## 6. Tetris
 ![Tetris](/Tetris_game/Tetris.png)
 
-## 9. Tictactoe
+## 7. Tictactoe
 ![Tictactoe](/TicTacToe/Tictactoe.png)
