@@ -1,14 +1,12 @@
 # Pygames
 
-1. Chess
-2. flappy bird
-3. Memorycard 
-4. Pong
-5. Snake and ladder
-6. Snake game
-7. Space invader
-8. Tetris
-9. Tictactoe
+1. flappy bird
+2. Memorycard 
+3. Pong
+4. Snake game
+5. Space invader
+6. Tetris
+7. Tictactoe
 
 
 ## 1. flappy bird
